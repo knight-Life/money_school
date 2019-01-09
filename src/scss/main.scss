@@ -1,17 +1,47 @@
-p{
-  font-size: 14px;
-  span{
+.inline-block{
+  display: inline-block;
+}
+
+.header {
+  background-color: #ff9500;
+  color: #fff;
+  display: flex;
+
+  h1.header-logo {
+    padding: 14px 8px 14px 32px;
+    text-align: center;
+    margin: auto;
+    font-size: 13px;
     font-weight: bold;
-    color: red;
+
+    img {
+      width: 155px;
+      height: 90px;
+      object-fit: cover;
+      margin: 7px auto 0;
+    }
   }
-}
 
-.parallax-window {
-     min-height: 800px;
-     background: transparent;
-}
 
-.parallax-slider {
-     top: 0;
-     left: 0;
+  nav.header-nav {
+    display: flex;
+    flex: 1;
+  }
+
+  ul.header-nav__hover {
+    display: none;
+  }
+
+  ul.header-nav__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+    li {
+      font-size: 14px;
+      width: 20%;
+      text-align: center;
+    }
+  }
 }
