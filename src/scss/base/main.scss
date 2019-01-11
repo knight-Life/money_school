@@ -1,0 +1,50 @@
+*{
+  font-family: ｍｓ ｐゴシック,ms pgothic,ヒラギノ角ゴ pro w3,hiragino kaku gothic pro,osaka,sans-serif;
+}
+
+ol{
+  list-style: decimal;
+  padding: 18px;
+
+  li{
+    line-height: 1.4em;
+  }
+}
+
+main {
+  padding-top: 138px;
+}
+
+.main-contents {
+  padding-bottom: 48px;
+}
+
+.text-black { color: #000;}
+.text-red { color: #ff0000;}
+
+
+.pagetop {
+  margin-left: auto;
+  margin-right: 16px;
+  height: 40px;
+  min-height: 18px;
+  width: 127px;
+  background-color: rgba(103, 189, 49, 1);
+  border: solid rgba(123, 115, 111, 1) 0px;
+  cursor: pointer !important;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: .4s;
+
+  span {
+    display: block;
+    padding: 12px;
+    color: #fff;
+  }
+
+  &:hover {
+    background-color: rgba(123, 115, 111, 1);
+  }
+}

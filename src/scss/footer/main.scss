@@ -1,0 +1,63 @@
+ul.footer-nav_list{
+  border-top: 1px solid rgba(247, 154, 14, 1);
+  margin-top: 48px;
+  margin-bottom: 16px;
+
+  &::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  li {
+    width: 33%;
+    float: left;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    a {
+      display: block;
+      padding: 15px;
+      width: 100%;
+      font-size: 12px;
+    }
+  }
+}
+
+.footer-info{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+
+  .footer-info__logo {
+    max-width: 264px;
+  }
+  .footer-info__mirai {
+    max-width: 195px;
+    max-height: 24px;
+  }
+  .footer-info__tel img {
+    max-width: 195px;
+    max-height: 44px;
+  }
+  .footer-info__sns {
+    display: flex;
+
+    .footer-info__fb {
+      margin-left: 8px;
+      margin-right: 8px;
+    }
+    img {
+      max-width: 39px;
+      max-height: 39px;
+    }
+  }
+}
+
+.footer-bottom{
+  background-color: #ff8f00;
+  font-size: 12px;
+  padding: 4px 16px 8px;
+}
